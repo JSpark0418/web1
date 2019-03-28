@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+<head>
+  <title>생활코딩 - HTML</title>
+  <meta charset="utf-8">
+</head>
+
+<body>
+  <h1><a href="index.html">생활코딩</a></h1>
+  <ol>
+    <li><a href="1.html">HTML</a></li>
+    <li><a href="2.html">CSS</a></li>
+    <li><a href="3.html">JavaScript</a></li>
+  </ol>
+
+  <h1>HTML</h1>
+
+  <ol>
+    <li>기본문법-태그</li>
+    <li>혁명적인 변화-heading</li>
+    <li>줄바꿈-br, p</li>
+    <li>최후의 문법, 속성과 img</li>
+    <li>문서의 구조와 슈퍼스타들 - title, meta charset, head, body, html, !doctype html</li>
+    <li>html 태그의 제왕 - a(링크)</li>
+  </ol>
+
+  <p>
+  <h2>기본문법-태그</h2><br>
+  1. 글자 강조하는 방법(진하게)-strong<br>
+  <strong>글자 강조</strong><br>
+  2. 글자 강조하는 방법(밑줄)-u<br>
+  <strong><u>글자</u> 강조</strong><br>
+  3.위에 같은 명령어를 열리는 태그<>, 닫히는 태그(/를 붙인다)라고 한다.<br>
+  옷에 붙어 있는걸 태그라고 함, 태그는 옷을 설명<br>
+  위에서도 strong이 그 글자를 진하게 표시해야한다는걸 설명
+  </p>
+  <br><br><br>
+
+  <p>
+  <h2>혁명적인 변화-heading,검색</h2><br>
+  1.h1 <h1>W3C</h1>
+  위와 같이 모르는 태그는 검색하면 알 수 있다.<br>
+  검색어 : HTML h1 tag
+  <h1>This is heading 1</h1>
+  <h2>This is heading 2</h2>
+  <h3>This is heading 3</h3>
+  <h4>This is heading 4</h4>
+  <h5>This is heading 5</h5>
+  <h6>This is heading 6</h6>
+  h1 ~ h6 : heading, 제목을 나타내는 태그(7부터는 없다.)
+  </p>
+  <br><br><br>
+
+  <p>
+  <h2>줄바꿈-br,p</h2><br>
+  1.br을 하면 한줄이 바뀜(중복사용가능)
+  br은 닫히는 태그가 없다.<br>
+  2.단락을 바꾸는 태그p,/p
+  p태그가 더 좋다. 같은 단락이라는 것을 의미로 표현할수있다.
+  br태그는 그냥 줄바꿈
+  하지만 P태그는 여러줄을 뗄수가없다.<br>
+  3.CSS(언어)를 사용하면 여러줄을 뗄수있다. CSS는 html과 다른 언어(여기서는 잊어도됨)
+  <p style="margin-top:40px;"></p>
+  </p>
+  <br><br><br>
+
+  <p>
+  <h2>최후의 문법, 속성과 img</h2>
+  img를 사용하면 사진을 넣을 수 있다.<br>
+  unsplash.com 에 있는 이미지들은 저작권이 없다.<br>
+  <img src="unsplash.jpg" width="50%"><br>
+  Photo by Will Turner on Unsplash<br>
+  여기서 src="unsplash.jpg" 와 width="100%"를 속성이라고 한다.<br>
+  위치는 바뀌어도 상관없다.<br>
+  태그만으로 정보가 부족할때, 속성을 통해 더많은 의미를 부과할수있다.<br>
+  </p>
+  <br><br><br>
+
+  <p>
+  <h2>부모 자식과 목록 - li,ul,ol</h2>
+  1. li:리스트를 만들때 사용
+  <li></li>
+  2. li 태그의 부모태그:ul(unordered list), 리스트를 하나로 묶어서 관리
+  <ul>
+    <li>기본문법-태그</li>
+    <li>혁명적인 변화-heading</li>
+  </ul>
+  3. li 태그의 또다른 부모태그:ol(자동으로 숫자를 매겨주는 리스트(ordered list))
+  <ol>
+    <li>기본문법-태그</li>
+    <li>혁명적인 변화-heading</li>
+  </ol>
+  4. 테이블-table, tr, td, 3대가 같이 다님
+  <table>
+    <tr>
+      <td>농도</td>
+      <td>98%</td>
+    </tr>
+    <tr>
+      <td>온도</td>
+      <td>25도</td>
+    </tr>
+  </table>
+  </p>
+  <br><br><br>
+
+  <p>
+  <h2>문서의 구조와 슈퍼스타들 - title, meta charset, head, body, html, !doctype html</h2>
+  title : 웹페이지의 제목을 설정할 때 사용<br>
+  기본적으로 html은 utf-8 방식으로 저장된다. 따라서 웹페이지에서도 utf-8 방식으로 불러들여야 오류(글자가 깨짐)가 안남<br>
+  그래서 html 앞 단에 meta charset="utf-8" 을 써줘서 utf-8 방식으로 문서를 읽도록 한다.<br>
+  head, body : 본문(body)과 본문을 설명하는 태그(head)로 나뉨, 이것은 사람간의 약속<br>
+  head, body 보다 상위에 html이 있고 관용적으로 문서의 맨위에는 !doctype html을 사용한다.(이건 닫히는 태그없음)<br>
+  </p>
+  <br><br><br>
+
+  <p>
+    <h2>html 태그의 제왕 - a(링크)</h2>
+    a : anchor 의 약자, 링크를 만들어 줌
+    <a href="https://www.naver.com/" target="_blank" title="네이버 바로가기">네이버</a><br>
+    href : hypertext reference의 약자, 링크의 주소를 입력<br>
+    target 이후 : 새로운 탭으로 연다는 뜻<br>
+    title : hypertext에 갖다 댔을 때 설명이 뜨게함<br>
+  </p>
+  <br><br><br>
+
+  <p>
+    <h2>웹사이트 완성</h2>
+    href="index.html" -> welcome 페이지 열리게<br>
+    href="1.html" -> HTML 이 열리게<br>
+    href="2.html" -> CSS 가 열리게<br>
+    <h1><a href="index.html">생활코딩</a></h1>
+    <ol>
+      <li><a href="1.html">HTML</a></li>
+      <li><a href="2.html">CSS</a></li>
+      <li><a href="3.html">JavaScript</a></li>
+    </ol>
+</body>
+</html>
